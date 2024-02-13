@@ -35,7 +35,7 @@ body {
 /*backgrounds*/
 
   .row-bg-1 {
-    background-image: url('assets/Smoke2.png');
+    background-image: url("assets/Smoke2.png");
     background-size: cover;
     background-position: center;
   }
