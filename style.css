@@ -1,0 +1,168 @@
+body {
+    width: 100%;
+    height: fit-content;
+    margin: 0;
+    padding: 0;
+    font: 16px/1.5 impact, sans-serif;
+    overflow-x: hidden; /* Add this line to prevent horizontal scrolling */
+    scroll-behavior: smooth;
+  }
+
+  .navbar {
+    color: white;
+  }
+  
+  .navbar a {
+    color: white;
+  }
+  
+  .nav-link img {
+    width: 45px;
+    height: 45px;
+  }
+  
+  .nav-link:hover {
+    background-color: blue;
+    border-radius: 10px;
+  }
+  
+  .box {
+    background-color: red;
+  }
+
+ 
+  
+/*backgrounds*/
+
+  .row-bg-1 {
+    background-image: url('/assets/Smoke2.png');
+    background-size: cover;
+    background-position: center;
+  }
+
+  .row-bg-2 {
+    background: linear-gradient(45deg, #c02828 0%, #000000 100%);
+  }
+
+  .row-bg-3 {
+  
+        /* The image used */
+        background-image: url("assets/Dumbells.jpg");
+  
+        /* Set a specific height */
+        min-height: 500px; 
+      
+        /* Create the parallax scrolling effect */
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    
+  }
+
+  .row-bg-4 {
+    background-color: blue;
+  }
+
+  .row-bg-5 {
+     /* The image used */
+     background-image: url("assets/woman-6777444_1920.jpg");
+  
+     /* Set a specific height */
+     min-height: 500px; 
+   
+     /* Create the parallax scrolling effect */
+     background-attachment: fixed;
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+  }
+
+
+  .row-bg-6 {
+    background: linear-gradient(185deg, #c02828 0%, #000000 100%);
+  }
+
+  .row-bg-7 {
+    background-color: #f2f2f2;
+  }
+
+  .row-bg-8 {
+    background-color: #f2f2f2;
+  }
+
+.card:hover{
+    box-shadow: 0 0 10px 5px rgb(8, 8, 186);
+    transition: 0.5s;
+    scale: 1.01;
+}
+
+.translucent-bg {
+  background-color: rgba(0, 0, 0, 0.95); /* Dark color with 50% opacity */
+  color: white; /* Text color */
+}
+
+p {
+  line-height: 1.6;
+}
+
+
+/* Define the animation */
+@keyframes slideInFromLeft {
+  from {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+
+.social-media {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+}
+
+.social-media li {
+  margin-right: 10px;
+}
+
+.fade-in {
+  opacity: 0;
+  transition: opacity 250ms ease-in;
+}
+
+.fade-in.appear {
+  opacity: 1;
+}
+
+from-left {
+  grid-column: 2 / 3;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+}
+
+.from-right {
+  grid-column: 3 / 4;
+  -webkit-transform: translateX(50%);
+  transform: translateX(50%);
+}
+
+.from-left,
+.from-right {
+  transition: opacity 250ms ease-in, -webkit-transform 400ms ease-in;
+  transition: opacity 250ms ease-in, transform 400ms ease-in;
+  transition: opacity 250ms ease-in, transform 400ms ease-in,
+    -webkit-transform 400ms ease-in;
+  opacity: 0;
+}
+
+.from-left.appear,
+.from-right.appear {
+  -webkit-transform: translateX(0);
+  transform: translateX(0);
+  opacity: 1;
+}
