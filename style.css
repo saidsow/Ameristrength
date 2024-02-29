@@ -106,6 +106,16 @@ p {
   }
 }
 
+.responsive-text {
+  font-size: 0.9rem; /* Or whatever your default font size is */
+}
+
+@media screen and (max-width: 768px) { /* Adjust breakpoint as needed */
+  .responsive-text {
+    font-size: 0.4rem; /* Adjust as needed */
+  }
+}
+
 .social-media {
   list-style-type: none;
   padding: 0;
