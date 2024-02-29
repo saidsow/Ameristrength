@@ -22,7 +22,7 @@ body {
   }
   
   .nav-link:hover {
-    background-color: blue;
+    background-color: gray;
     border-radius: 10px;
   }
   
