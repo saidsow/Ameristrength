@@ -96,13 +96,13 @@ body {
 
 p {
   line-height: 1.6;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
 }
 
 
 @media screen and (max-width: 768px) { /* Adjust breakpoint as needed */
   p {
-    font-size: 0.8rem; /* Adjust as needed */
+    font-size: 0.5rem; /* Adjust as needed */
   }
 }
 
