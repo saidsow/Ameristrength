@@ -6,6 +6,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Ameristrength</title>
 
+  <link rel="icon" href="assets/fitnesswebsitelogo-removebg-preview.png" type="image/x-icon">
+
   <!-- Bootstrap CSS -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
@@ -19,36 +21,32 @@
   <!--Social Media-->
   <div class="position-fixed start-0 d-flex flex-column justify-content-center vh-100" style="z-index: 999;">
     <div class="social-media d-none d-lg-block">
-        <nav class="nav flex-column">
-            <a class="nav-link" href="https://www.facebook.com" target="_blank">
-                <img src="assets/FB.png" alt="Facebook" />
-            </a>
-            <a class="nav-link" href="https://www.Linkedin.com" target="_blank">
-                <img src="assets/Linkedin.png" alt="Twitter" />
-            </a>
-            <a class="nav-link" href="https://www.instagram.com/ameristrength_fitness/" target="_blank">
-                <img src="assets/IG.png" alt="Instagram" />
-            </a>
-        </nav>
+      <nav class="nav flex-column">
+        <a class="nav-link" href="https://www.facebook.com" target="_blank">
+          <img src="assets/FB.png" alt="Facebook" />
+        </a>
+        <a class="nav-link" href="https://www.Linkedin.com" target="_blank">
+          <img src="assets/Linkedin.png" alt="Twitter" />
+        </a>
+        <a class="nav-link" href="https://www.instagram.com/ameristrength_fitness/" target="_blank">
+          <img src="assets/IG.png" alt="Instagram" />
+        </a>
+      </nav>
     </div>
-</div>
-
+  </div>
 
   <!-- Start -->
   <div class="container-fluid">
-    <div class="row row-bg-1" id="top">
+    
       <!--Navbar-->
       <nav class="navbar navbar-expand-lg navbar-light bg-transparent">
         <div class="container">
-          <a class="navbar-brand" href="index.html">
-            <img src="assets/fitnesswebsitelogo-removebg-preview.png" height="80px" width="80px" alt="Ameristrength" />
-          </a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
             aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ms-auto">
+          <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+            <ul class="navbar-nav">
               <li class="nav-item">
                 <a class="nav-link" href="index.html">Home</a>
               </li>
@@ -64,34 +62,52 @@
           </div>
         </div>
       </nav>
-
-
-      <div class="col-sm-12 col-lg-12">
+  
+      <!-- Rest of your code -->
+    <div class="row row-bg-1" id="top">
+    <div class="col-sm-12">
         <div class="d-flex justify-content-center align-items-center" style="height: 100vh">
-          <h1 class="display-1 text-uppercase">
-            <span class="slideDown" style="color: #7a2b2b">Ameri</span><span class="from-top" style="color: blue">Strenth</span><span class="from-top" style="color: white;">Fitness</span>
-          </h1>
+            <img src="assets/fitnesswebsitelogo-removebg-preview.png" alt="">
         </div>
-      </div>
     </div>
-
+  </div>
     <!-- About Section -->
-    <div class="row row-bg-2" style="height: 60vh;">
+    <div class="row row-bg-2" style="height: auto;">
       <div class="col-sm-12">
         <div class="d-flex justify-content-center align-items-center text-white" id="about">
           <h1 class="text-uppercase mt-4">About us</h1>
         </div>
       </div>
-      <div class="col-sm-12 col-lg-12">
-        <div class="d-flex justify-content-center align-items-center">
-          <img src="assets/crossfit-534615_1280.jpg" alt="Fitness" class="img-fluid"
-            style="border-radius: 15px; height: 250px; " />
+
+      <div class="d-flex align-items-center justify-content-center">
+        <div class="col-sm-12 col-lg-4">
+          <div id="carouselExampleFade" class="carousel slide carousel-fade">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="assets/image0 (1).jpeg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="assets/image0.jpeg" class="d-block w-100" alt="...">
+              </div>
+
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade"
+              data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade"
+              data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
         </div>
       </div>
-      <div class="col-sm-12 col-lg-4"><img src="" alt=""></div>
-      <div class="col-sm-12 col-lg-4 mb-4">
+
+      <div class="col-sm-12 col-lg-4 offset-md-4 mb-4">
         <div class="d-flex align-items-end justify-content-end">
-          <p class=" text-white text-center slide-in from-left">
+          <p class=" text-white text-center ">
             Our mission is freedom through fitness.
             At Ameristrength Fitness we want more than just a client/trainer relationship.
             We want to build rapport and trust in order to achieve the best results possible in and out of the gym.
@@ -100,220 +116,152 @@
           </p>
         </div>
       </div>
-      <div class="col-sm-12 col-lg-4"><img src="" alt=""></div>
-   
     </div>
 
     <!--Cris McCullen-->
     <div class="parallax">
-    <div class="row row-bg-3 text-white">
-      <div class="col-sm-12">
-        <div class="d-flex justify-content-center align-items-center mt-5 mb-5">
-          <h1 class="text-uppercase">Meet the Founder</h1>
+      <div class="row row-bg-3 text-white">
+        <div class="col-sm-12">
+          <div class="d-flex justify-content-center align-items-center mt-5 mb-5">
+            <h1 class="text-uppercase">Meet the Founder</h1>
+          </div>
         </div>
-      </div>
-      <div class="col-2"></div>
-      <div class="col-sm-12 col-lg-3">
-        <div class="slide-in from-left">
-          <p class="text-start slide-in from-left">
-            Hi, my name is Cris McCullen and I’m the founder of Ameristrength Fitness.
-            As a kid grow row-bg-1 up, sports and physical activity were my life.
-            I started getting into resistance training when I was 16 and fell in love with powerlifting,
-            bodybuilding, and nutrition. In fact, I loved it so much that I went to school for it and got
-            my bachelor’s in exercise science. I wanted to pursue physical therapy but the family took
-            precedence. I switched careers and became a firefighter/paramedic which I enjoyed but was not
-            my passion. However, it gave me the priceless experience to become my grandmother’s in a home
-            nurse for the last 7 months of her life. After her death I knew I had to get back to what god
-            put me on this earth to do and these
-            are the pillars for which Ameristrength Fitness was built upon.
-          </p>
-        </div>
-        <div class="text-start slide-in from-left">
-          <ul style="list-style-type: none; padding-left: 0;">
-            <li>B.S. in exercise science</li>
-            <li>ACE-certified personal trainer</li>
-            <li>ACE-certified nutrition coach</li>
-            <li>CPR/first aid certified</li>
-          </ul>
-        </div>
-      </div>
-      <div class="col-sm-12 col-lg-6">
-        <div class="d-flex justify-content-center align-items-center">
-          <img src="assets/Cris.png" alt="Cris McCullen" class="img-fluid" style="border-radius: 15px;" />
-        </div>
-      </div>
-    </div>
-  </div>
 
-    <!-- Prices Section-->
-    <div class="row row-bg-4" id="Pricing">
-      <h1 class="text-center text-white mt-3">OUR SERVICES</h1>
-      <div class="card-group mb-5">
-        <div class="card translucent-bg">
-          <div class="card-body">
-            <h5 class="card-title text-uppercase text-center">plan 1</h4>
-              <hr>
-              <ul class="fa-ul">
-                <li><span class="fa-li"><i class="fas fa-check"></i></span>Nutrition/body compositional guidance</li>
-                <li><span class="fa-li"><i class="fas fa-check"></i></span>15 minute once a week zoom meeting for a
-                  recap plus accountability</li>
-                <li><span class="fa-li"><i class="fas fa-check"></i></span>24/7 support through online message board for
-                  any questions or motivation</li>
-                <li><span class="fa-li"><i class="fas fa-check"></i></span>Blood draw/urinalysis</li>
-                <li><span class="fa-li"><i class="fas fa-check"></i></span>Customized meal plan based upon test results
-                </li>
-                <li><span class="fa-li"><i class="fas fa-check"></i></span>Weekly weigh ins</li>
-                <li><span class="fa-li"><i class="fas fa-check"></i></span>Measurements (I’ll teach you how)</li>
-                <li><span class="fa-li"><i class="fas fa-check"></i></span>My fitness pal/food log</li>
-                <li><span class="fa-li"><i class="fas fa-check"></i></span>Before/after pics</li>
-                <li><span class="fa-li"><i class="fas fa-check"></i></span>$40/week (not including labs)</li>
-                <li><span class="fa-li"><i class="fas fa-check"></i></span>3 and 6 month subscriptions depending on fat
-                  loss/muscle gain goals</li>
-              </ul>
+        <div class="col-sm-12 col-lg-4 offset-lg-1">
+          <div class="d-flex align-items-center">
+            <p class="text-start">
+              Hi, my name is Cris McCullen and I’m the founder of Ameristrength Fitness.
+              As a kid grow row-bg-1 up, sports and physical activity were my life.
+              I started getting into resistance training when I was 16 and fell in love with powerlifting,
+              bodybuilding, and nutrition. In fact, I loved it so much that I went to school for it and got
+              my bachelor’s in exercise science. I wanted to pursue physical therapy but the family took
+              precedence. I switched careers and became a firefighter/paramedic which I enjoyed but was not
+              my passion. However, it gave me the priceless experience to become my grandmother’s in a home
+              nurse for the last 7 months of her life. After her death I knew I had to get back to what god
+              put me on this earth to do and these
+              are the pillars for which Ameristrength Fitness was built upon.
+            </p>
           </div>
-        </div>
-        <div class="card translucent-bg">
-          <div class="card-body">
-            <h5 class="card-title text-uppercase text-center">Plan 2</h5>
-            <hr>
-            <ul class="fa-ul">
-              <li><span class="fa-li"><i class="fas fa-check"></i></span>Semi private zoom training</li>
-              <li><span class="fa-li"><i class="fas fa-check"></i></span>No equipment necessary!</li>
-              <li><span class="fa-li"><i class="fas fa-check"></i></span>$10 off Couples/veterans/first responders</li>
-              <li><span class="fa-li"><i class="fas fa-check"></i></span>$30/half hour</li>
-              <li><span class="fa-li"><i class="fas fa-check"></i></span>No contract</li>
-              <li><span class="fa-li"><i class="fas fa-check"></i></span>Monthly payment in advance</li>
+          <div class="text-start">
+            <ul style="list-style-type: none; padding-left: 0;">
+              <li>B.S. in exercise science</li>
+              <li>ACE-certified personal trainer</li>
+              <li>ACE-certified nutrition coach</li>
+              <li>CPR/first aid certified</li>
             </ul>
           </div>
         </div>
-        <div class="card translucent-bg">
-          <div class="card-body">
-            <h5 class="card-title text-uppercase text-center">Plan 3</h5>
-            <hr>
-            <ul class="fa-ul">
-              <li><span class="fa-li"><i class="fas fa-check"></i></span>One on one personalized zoom training</li>
-              <li><span class="fa-li"><i class="fas fa-check"></i></span>No equipment necessary!</li>
-              <li><span class="fa-li"><i class="fas fa-check"></i></span>Workouts are documented and written out week
-                after week to ensure progressive overload</li>
-              <li><span class="fa-li"><i class="fas fa-check"></i></span>One time nutrition/body composition assessment
-                (calorie/protein requirements and body fat percentage)</li>
-              <li><span class="fa-li"><i class="fas fa-check"></i></span>$10 off veterans/first responders</li>
-              <li><span class="fa-li"><i class="fas fa-check"></i></span>$60/half hour 6 month subscription</li>
-              <li><span class="fa-li"><i class="fas fa-check"></i></span>$50/half hour 12 month subscription</li>
-            </ul>
-          </div>
-        </div>
-        <div class="card translucent-bg">
-          <div class="card-body">
-            <h5 class="card-title text-uppercase text-center">Plan 4</h5>
-            <hr>
-            <ul class="fa-ul">
-              <li><span class="fa-li"><i class="fas fa-check"></i></span>Semi private training based upon
-                demographics/needs</li>
-              <li><span class="fa-li"><i class="fas fa-check"></i></span>Maximum of 7 per class for more of a focused
-                approach</li>
-              <li><span class="fa-li"><i class="fas fa-check"></i></span>First 10 minutes meet and greet as well as
-                explaining/demonstrating the workout (biomechanics) plus nutrition basics and motivation</li>
-              <li><span class="fa-li"><i class="fas fa-check"></i></span>$10 off couples/veterans/first responders</li>
-              <li><span class="fa-li"><i class="fas fa-check"></i></span>$50/hour once a week</li>
-              <li><span class="fa-li"><i class="fas fa-check"></i></span>No contract</li>
-              <li><span class="fa-li"><i class="fas fa-check"></i></span>Monthly payment in advance</li>
-            </ul>
-          </div>
-        </div>
-        <div class="card translucent-bg">
-          <div class="card-body">
-            <h5 class="card-title text-uppercase text-center">Plan 5</h5>
-            <hr>
-            <ul class="fa-ul">
-              <li><span class="fa-li"><i class="fas fa-check"></i></span>One on one personalized training</li>
-              <li><span class="fa-li"><i class="fas fa-check"></i></span>Workouts are documented and written out week
-                after week to ensure progressive overload</li>
-              <li><span class="fa-li"><i class="fas fa-check"></i></span>One time nutrition/body composition assessment
-                (calorie/protein requirements and body fat percentage)</li>
-              <li><span class="fa-li"><i class="fas fa-check"></i></span>$60/half hour 6 month subscription</li>
-              <li><span class="fa-li"><i class="fas fa-check"></i></span>$50/half hour 12 month subscription</li>
-              <li><span class="fa-li"><i class="fas fa-check"></i></span>$15/month includes open gym</li>
-            </ul>
+        <div class="col-sm-12 col-lg-6">
+          <div class="d-flex justify-content-center align-items-center">
+            <img src="assets/Cris.png" alt="Cris McCullen" class="img-fluid" style="border-radius: 15px;" />
           </div>
         </div>
       </div>
     </div>
-
 
     <!-- Testimonials  -->
-    <div class="row row-bg-5 text-white text-shadow" style="height: 50svh;">
-      <div class="col-2"></div>
-      <div class="col-sm-12 col-lg-8">
-        <div class="d-flex justify-content-center align-items-center mt-5 ">
-          <h1 class="text-uppercase">Testimonials</h1>
+    <div class="row row-bg-5 text-white text-shadow fs-lg-4" style="height: 50svh;">
+      <div class="d-flex align-items-center justify-content-center">
+        <div class="col-sm-12 col-lg-8">
+          <div class="d-flex justify-content-center align-items-center mt-5 ">
+            <h1 class="text-uppercase">Testimonials</h1>
+          </div>
+          <div class="col-sm-12">
+            <div id="testimonialsCarousel" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <div class="carousel-content text-center">
+                    <p>I was an avid gym enthusiast before. Over the years I had seen Cris train his clients. His
+                      attentive nature called to me. I didn’t really want anyone involved with my workouts but I decided
+                      to give them a chance because I wanted to change my split, gain more muscle, and see if I could
+                      improve my training regiment. It was the best decision I ever made! Cris’ vast knowledge of
+                      exercise
+                      science, his attention to my fitness needs, and life-coaching spirit really made our sessions
+                      worthwhile! He is a natural leader and completely changed my fitness physique. I was already in
+                      great shape but this pushed me over the edge toward muscle gain and a new better body type. Cris
+                      pushes me to work out harder than I ever did before and also provided me with different knowledge
+                      than just simply working on my own!! He’s the best. I highly recommend him.</p>
+                    <p class="testimonial-author">- Christina</p>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="carousel-content text-center">
+                    <p>Cris takes great pride in helping others achieve their fitness goals. He goes out of his way to
+                      connect with his clients on another level. Cris motivates me every day to become the best version
+                      of
+                      myself physically and mentally. I look forward to every workout. He tailors each session to my
+                      personal needs and challenges me with new and exciting workouts that have transformed my body.
+                      Cris
+                      shows me the correct way to perform each movement and gives me the motivation and confidence to
+                      keep
+                      pushing myself. He has also taught me about mindset and keeping a positive attitude for which I am
+                      extremely grateful. Cris' professionalism, knowledge and passion for personal fitness and staying
+                      healthy is second to none.</p>
+                    </p>
+                    <p class="testimonial-author">- Claudine C</p>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="carousel-content text-center">
+                    <p>I’ve had a number of good personal trainers over the years but none as skilled is Cris with whom
+                      I’ve been training for over two years. His knowledge of body mechanics and nutrition is vast; yet
+                      he
+                      is always seeking a deeper understanding. At 70 I still want to train with intensity, and Cris has
+                      helped me do it safely. My joints are in better condition than they have been in years because of
+                      his program of alternating between heavier weights and lighter weights with high volume. Though
+                      I’m
+                      not a novice, Cris reins me in from injuries I might cause when following my own ego. His
+                      friendship
+                      and encouragement through various challenges and his passion, ethics and love of his work make
+                      training with him true pleasure.</p>
+                    <p class="testimonial-author">- Greg S</p>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="carousel-content text-center fs-lg-5">
+                    <p>I first started working with Cris in 2020 after I suffered from a severe leg injury. Thanks to
+                      his
+                      knowledge of nutrition, rehabilitation, and thoughtful exercise programs, Cris has helped me
+                      regain
+                      full mobility in addition to becoming stronger than I ever imagined. Not only is Cris an
+                      incredible
+                      trainer who is incredibly well versed in working with older clients, but he is also very kind and
+                      motivational. I have and will continue to recommend his expertise to any level and age of athlete!
+                    </p>
+                    <p class="testimonial-author">- Burak</p>
+                  </div>
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#testimonialsCarousel"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#testimonialsCarousel"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- Offers -->
+    <div class="row">
+      <div class="col-sm-12">
+        <div class="d-flex justify-content-center align-items-center">
+          <h2>Our Services</h2>
         </div>
         <div class="col-sm-12">
-          <div id="testimonialsCarousel" class="carousel slide" data-bs-ride="carousel">
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <div class="carousel-content text-center fs-lg-5">
-                  <p>I was an avid gym enthusiast before. Over the years I had seen Cris train his clients. His
-                    attentive nature called to me. I didn’t really want anyone involved with my workouts but I decided
-                    to give them a chance because I wanted to change my split, gain more muscle, and see if I could
-                    improve my training regiment. It was the best decision I ever made! Cris’ vast knowledge of exercise
-                    science, his attention to my fitness needs, and life-coaching spirit really made our sessions
-                    worthwhile! He is a natural leader and completely changed my fitness physique. I was already in
-                    great shape but this pushed me over the edge toward muscle gain and a new better body type. Cris
-                    pushes me to work out harder than I ever did before and also provided me with different knowledge
-                    than just simply working on my own!! He’s the best. I highly recommend him.</p>
-                  <p class="testimonial-author">- Christina</p>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <div class="carousel-content text-center fs-lg-5">
-                  <p>Cris takes great pride in helping others achieve their fitness goals. He goes out of his way to
-                    connect with his clients on another level. Cris motivates me every day to become the best version of
-                    myself physically and mentally. I look forward to every workout. He tailors each session to my
-                    personal needs and challenges me with new and exciting workouts that have transformed my body. Cris
-                    shows me the correct way to perform each movement and gives me the motivation and confidence to keep
-                    pushing myself. He has also taught me about mindset and keeping a positive attitude for which I am
-                    extremely grateful. Cris' professionalism, knowledge and passion for personal fitness and staying
-                    healthy is second to none.</p>
-                  </p>
-                  <p class="testimonial-author">- Claudine C</p>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <div class="carousel-content text-center fs-lg-5">
-                  <p>I’ve had a number of good personal trainers over the years but none as skilled is Cris with whom
-                    I’ve been training for over two years. His knowledge of body mechanics and nutrition is vast; yet he
-                    is always seeking a deeper understanding. At 70 I still want to train with intensity, and Cris has
-                    helped me do it safely. My joints are in better condition than they have been in years because of
-                    his program of alternating between heavier weights and lighter weights with high volume. Though I’m
-                    not a novice, Cris reins me in from injuries I might cause when following my own ego. His friendship
-                    and encouragement through various challenges and his passion, ethics and love of his work make
-                    training with him true pleasure.</p>
-                  <p class="testimonial-author">- Greg S</p>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <div class="carousel-content text-center fs-lg-5">
-                  <p>I first started working with Cris in 2020 after I suffered from a severe leg injury. Thanks to his
-                    knowledge of nutrition, rehabilitation, and thoughtful exercise programs, Cris has helped me regain
-                    full mobility in addition to becoming stronger than I ever imagined. Not only is Cris an incredible
-                    trainer who is incredibly well versed in working with older clients, but he is also very kind and
-                    motivational. I have and will continue to recommend his expertise to any level and age of athlete!
-                  </p>
-                  <p class="testimonial-author">- Burak</p>
-                </div>
-              </div>
-            </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#testimonialsCarousel"
-              data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#testimonialsCarousel"
-              data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Next</span>
-            </button>
+          <div class="d-flex align-items-center justify-content-center text-center">
+            <ul>
+              <li>One on One Coaching</li>
+              <li>Semi Private Training</li>
+              <li>Nutritional Coaching</li>
+            </ul>
           </div>
         </div>
       </div>
@@ -381,10 +329,10 @@
       </div>
       <div class="col-sm-12 col-lg-4 ">
         <div class="d-flex justify-content-center align-items-center">
-        <a href="#top" class="arrow-top">
-          <img src="assets/ArrowUp.png" style="height: 50px;" alt="Arrow to Top">
-        </a>
-      </div>
+          <a href="#top" class="arrow-top">
+            <img src="assets/ArrowUp.png" style="height: 50px;" alt="Arrow to Top">
+          </a>
+        </div>
       </div>
       <div class="col-sm-12 col-lg-4 ">
         <h2 class="text-white">Follow Us</h2>
@@ -396,7 +344,6 @@
       </div>
     </div>
 
-  
 
 
 
@@ -407,79 +354,3 @@
 </body>
 
 </html>
-
-<!--
-<div class="row row-bg-4">
-  <div class="col-sm-12 col-lg-4">
-  <div class="card translucent-bg mb-5 mb-lg-0">
-  <div class="card-body"> 
-    <h5 class="card-title text-uppercase text-center">plan 1</h4>
-    <hr> 
-    <ul class="fa-ul">
-      <li><span class="fa-li"><i class="fas fa-check"></i></span>Nutrition/body compositional guidance</li>
-      <li><span class="fa-li"><i class="fas fa-check"></i></span>15 minute once a week zoom meeting for a recap plus accountability</li>
-      <li><span class="fa-li"><i class="fas fa-check"></i></span>24/7 support through online message board for any questions or motivation</li>
-      <li><span class="fa-li"><i class="fas fa-check"></i></span>Blood draw/urinalysis</li>
-      <li><span class="fa-li"><i class="fas fa-check"></i></span>Customized meal plan based upon test results</li>
-      <li><span class="fa-li"><i class="fas fa-check"></i></span>Weekly weigh ins</li>
-      <li><span class="fa-li"><i class="fas fa-check"></i></span>Measurements (I’ll teach you how)</li>
-      <li><span class="fa-li"><i class="fas fa-check"></i></span>My fitness pal/food log</li>
-      <li><span class="fa-li"><i class="fas fa-check"></i></span>Before/after pics</li>
-      <li><span class="fa-li"><i class="fas fa-check"></i></span>$40/week (not including labs)</li>
-      <li><span class="fa-li"><i class="fas fa-check"></i></span>3 and 6 month subscriptions depending on fat loss/muscle gain goals</li>
-    </ul>
-   </div>
-  </div>
-  </div>
-  <div class="col-sm-12 col-lg-4">
-    <div class="card h-100 mb-5 mb-lg-0">
-      <div class="card-body">
-        <h5 class="card-title text-uppercase text-center">Plan 2</h5>
-        <hr>
-        <ul class="fa-ul">
-          <li><span class="fa-li"><i class="fas fa-check"></i></span>Semi private zoom training</li>
-          <li><span class="fa-li"><i class="fas fa-check"></i></span>No equipment necessary!</li>
-          <li><span class="fa-li"><i class="fas fa-check"></i></span>$10 off Couples/veterans/first responders</li>
-          <li><span class="fa-li"><i class="fas fa-check"></i></span>$30/half hour</li>
-          <li><span class="fa-li"><i class="fas fa-check"></i></span>No contract</li>
-          <li><span class="fa-li"><i class="fas fa-check"></i></span>Monthly payment in advance</li>
-        </ul>
-      </div>
-    </div>
-  </div>
-  <div class="col-sm-12 col-lg-4">
-      <div class="card h-100 mb-5 mb-lg-0">
-        <div class="card-body">
-          <h5 class="card-title text-uppercase text-center">Plan 3</h5>
-          <hr>
-          <ul class="fa-ul">
-            <li><span class="fa-li"><i class="fas fa-check"></i></span>One on one personalized zoom training</li>
-            <li><span class="fa-li"><i class="fas fa-check"></i></span>No equipment necessary!</li>
-            <li><span class="fa-li"><i class="fas fa-check"></i></span>Workouts are documented and written out week after week to ensure progressive overload</li>
-            <li><span class="fa-li"><i class="fas fa-check"></i></span>One time nutrition/body composition assessment (calorie/protein requirements and body fat percentage)</li>
-            <li><span class="fa-li"><i class="fas fa-check"></i></span>$10 off veterans/first responders</li>
-            <li><span class="fa-li"><i class="fas fa-check"></i></span>$60/half hour 6 month subscription</li>
-            <li><span class="fa-li"><i class="fas fa-check"></i></span>$50/half hour 12 month subscription</li>
-          </ul>
-        </div>
-      </div>
-  </div>
-  <div class="col-sm-12 col-lg-6">
-    <div class="card h-100 mb-5 mb-lg">
-      <div class="card-body">
-        <h5 class="card-title text-muted text-uppercase text-center">Plan 4</h5>
-        <hr>
-        <ul class="fa-ul">
-          <li><span class="fa-li"><i class="fas fa-check"></i></span>Semi private training based upon demographics/needs</li>
-          <li><span class="fa-li"><i class="fas fa-check"></i></span>Maximum of 7 per class for more of a focused approach</li>
-          <li><span class="fa-li"><i class="fas fa-check"></i></span>First 10 minutes meet and greet as well as explaining/demonstrating the workout (biomechanics) plus nutrition basics and motivation</li>
-          <li><span class="fa-li"><i class="fas fa-check"></i></span>$10 off couples/veterans/first responders</li>
-          <li><span class="fa-li"><i class="fas fa-check"></i></span>$50/hour once a week</li>
-          <li><span class="fa-li"><i class="fas fa-check"></i></span>No contract</li>
-          <li><span class="fa-li"><i class="fas fa-check"></i></span>Monthly payment in advance</li>
-        </ul>
-      </div>
-    </div>
-  </div>
-</div>
--->
