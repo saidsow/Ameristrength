@@ -6,6 +6,7 @@ body {
     font: 16px/1.5 impact, sans-serif;
     overflow-x: hidden; /* Add this line to prevent horizontal scrolling */
     scroll-behavior: smooth;
+    overflow-x: hidden;
   }
 
   .navbar {
