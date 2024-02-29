@@ -6,6 +6,7 @@ body {
     font: 16px/1.5 impact, sans-serif;
     overflow-x: hidden; /* Add this line to prevent horizontal scrolling */
     scroll-behavior: smooth;
+    background-color: black;
   }
 
   .navbar {
@@ -49,7 +50,7 @@ body {
   .row-bg-3 {
   
         /* The image used */
-        background-image: url("assets/Dumbells.jpg");
+        background-image: url("assets/Test\ \(2\).jpg");
   
         /* Set a specific height */
         min-height: 500px; 
@@ -63,12 +64,13 @@ body {
   }
 
   .row-bg-4 {
-    background-color: blue;
+    background-color: rgb(137, 144, 133);
+
   }
 
   .row-bg-5 {
      /* The image used */
-     background-image: url("assets/woman-6777444_1920.jpg");
+     background-image: url("assets/Test\ \(1\).jpg");
   
      /* Set a specific height */
      min-height: 500px; 
@@ -82,11 +84,11 @@ body {
 
 
   .row-bg-6 {
-    background: linear-gradient(185deg, #c02828 0%, #000000 100%);
+    background: linear-gradient(45deg, #131a82 0%, #000000 100%);
   }
 
   .row-bg-7 {
-    background-color: #f2f2f2;
+    background: linear-gradient(185deg, #c02828 0%, #000000 100%);
   }
 
   .row-bg-8 {
