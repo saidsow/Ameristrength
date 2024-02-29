@@ -102,7 +102,7 @@ p {
 
 @media screen and (max-width: 768px) { /* Adjust breakpoint as needed */
   p {
-    font-size: 0.5rem; /* Adjust as needed */
+    font-size: 0.7rem; /* Adjust as needed */
   }
 }
 
@@ -112,7 +112,7 @@ p {
 
 @media screen and (max-width: 768px) { /* Adjust breakpoint as needed */
   .responsive-text {
-    font-size: 0.4rem; /* Adjust as needed */
+    font-size: 0.6rem; /* Adjust as needed */
   }
 }
 
