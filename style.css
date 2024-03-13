@@ -6,7 +6,7 @@ body {
     font: 16px/1.5 impact, sans-serif;
     overflow-x: hidden; /* Add this line to prevent horizontal scrolling */
     scroll-behavior: smooth;
-    background-color: black;
+    background-color: rgb(255, 255, 255);
   }
 
   .navbar {
@@ -64,7 +64,8 @@ body {
   }
 
   .row-bg-4 {
-    background-image: url("assets/Smoke2.png");
+    
+    background-image: url("assets/zumba.png");
     background-attachment: fixed;
      background-position: center;
      background-repeat: no-repeat;
@@ -80,7 +81,7 @@ body {
 
 
   .row-bg-7 {
-    background-image: url("assets/Dumbells.jpg");
+    background-image: url("assets/Turf.png");
     background-attachment: fixed;
      background-position: center;
      background-repeat: no-repeat;
@@ -139,3 +140,11 @@ p {
   object-fit: cover;
 }
 
+.services-list {
+  font-size: 1.9rem; /* Adjust as needed */
+}
+.services-card {
+  background: rgba(0, 0, 0, 0.5); /* Adjust transparency as needed */
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* Adjust shadow as needed */
+  padding: 0px; /* Adjust padding as needed */
+}
