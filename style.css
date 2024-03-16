@@ -95,6 +95,7 @@ body {
     .row-bg-1, .row-bg-2, .row-bg-3, .row-bg-4, .row-bg-5, .row-bg-7 {
         
         background-attachment: inherit;
+        background-image: scroll;
     }
 }
 
