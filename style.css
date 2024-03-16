@@ -83,7 +83,7 @@ body {
     background-attachment: fixed;
      background-position: center;
      background-repeat: no-repeat;
-     background-size: cover;
+     background-size: 100* auto;
   }
 
   .row-bg-8 {
@@ -94,6 +94,7 @@ body {
     /* For .row-bg-1, .row-bg-2, .row-bg-3 */
     .row-bg-1, .row-bg-2, .row-bg-3, .row-bg-4, .row-bg-5, .row-bg-7 {
         background-size: scroll; /
+      
     }
 }
 
@@ -155,42 +156,4 @@ p {
   width: 24px; /* Adjust as needed */
   height: 24px; /* Adjust as needed */
   margin-right: 10px; /* Adjust as needed */
-}
-
-/* Add this media query for screens with a maximum width of 768px */
-@media screen and (max-width: 768px) {
-  .row-bg-1,
-  .row-bg-2,
-  .row-bg-3,
-  .row-bg-4,
-  .row-bg-5,
-  .row-bg-7 {
-    background-size: cover; /* or background-size: contain; */
-  }
-
-  p {
-    font-size: 1rem; /* Adjust as needed for readability */
-  }
-
-  .responsive-text {
-    font-size: 0.8rem; /* Adjust as needed for smaller screens */
-  }
-
-  .services-list {
-    font-size: 1.5rem; /* Adjust as needed for mobile view */
-  }
-
-  .instagram-link {
-    font-size: 1.2rem; /* Adjust as needed for mobile view */
-  }
-
-  .instagram-icon {
-    width: 20px; /* Adjust as needed */
-    height: 20px; /* Adjust as needed */
-    margin-right: 5px; /* Adjust as needed */
-  }
-
-  .carousel-item {
-    height: 400px; /* Adjust this value for mobile view */
-  }
 }
