@@ -40,7 +40,7 @@ body {
     background-attachment: fixed;
      background-position: center;
      background-repeat: no-repeat;
-     background-size: 100* auto;
+     background-size: 100% auto;
   }
 
   .row-bg-2 {
@@ -67,7 +67,7 @@ body {
     background-attachment: fixed;
      background-position: center;
      background-repeat: no-repeat;
-     background-size: 100* auto;
+     background-size: cover;
 
   }
 
@@ -83,7 +83,7 @@ body {
     background-attachment: fixed;
      background-position: center;
      background-repeat: no-repeat;
-     background-size: 100* auto;
+     background-size: cover;
   }
 
   .row-bg-8 {
@@ -93,8 +93,8 @@ body {
   @media (max-width: 768px) {
     /* For .row-bg-1, .row-bg-2, .row-bg-3 */
     .row-bg-1, .row-bg-2, .row-bg-3, .row-bg-4, .row-bg-5, .row-bg-7 {
-        background-size: scroll; /
-      
+        
+        background-attachment: inherit;
     }
 }
 
