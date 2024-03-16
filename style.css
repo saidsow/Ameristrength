@@ -55,17 +55,17 @@ body {
   
       
         /* Create the parallax scrolling effect */
-        background-attachment: fixed;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
+        background-attachment: scroll;
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
     
   }
 
   .row-bg-4 {
     
     background-image: url("assets/zumba.png");
-    background-attachment: fixed;
+    background-attachment: scroll;
      background-position: center;
      background-repeat: no-repeat;
      background-size: cover;
@@ -81,24 +81,16 @@ body {
 
   .row-bg-7 {
     background-image: url("assets/Turf.png");
-    background-attachment: fixed;
-     background-position: center;
-     background-repeat: no-repeat;
-     background-size: cover;
+    background-attachment: scroll;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
   }
 
   .row-bg-8 {
     background-color: #f2f2f2;
   }
 
-  @media (max-width: 768px) {
-    /* For .row-bg-1, .row-bg-2, .row-bg-3 */
-    .row-bg-1, .row-bg-2, .row-bg-3, .row-bg-4, .row-bg-5, .row-bg-7 {
-        
-        background-attachment: inherit;
-        background-image: scroll;
-    }
-}
 
 p {
   line-height: 1.6;
