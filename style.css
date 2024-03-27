@@ -163,3 +163,10 @@ p {
   height: 24px; /* Adjust as needed */
   margin-right: 10px; /* Adjust as needed */
 }
+
+#contact form label,
+#contact form input,
+#contact form textarea,
+#contact form button {
+  font-family: Arial, sans-serif; /* Change the font family as desired */
+}
