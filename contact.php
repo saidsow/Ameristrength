@@ -12,6 +12,12 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
   // Send email
   if (mail($to, $subject, $body)) {
     echo "Message sent successfully!";
+    // Redirect back to the main page after a short delay
+    echo '<script>
+            setTimeout(function(){
+              window.location.href = "index.html"; // Replace "index.html" with your main page URL
+            }, 3000); // Redirect after 3 seconds (adjust as needed)
+          </script>';
   } else {
     echo "Error sending message.";
   }
