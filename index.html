@@ -27,13 +27,24 @@
         }
     });
 });
+
+function allConsentGranted() {
+  gtag('consent', 'update', {
+    'ad_user_data': 'granted',
+    'ad_personalization': 'granted',
+    'ad_storage': 'granted',
+    'analytics_storage': 'granted'
+  });
+  }
 </script>
   <link rel="stylesheet" href="style.css" />
 </head>
 
 <body>
 
-
+  
+  <button onclick="allConsentGranted()">Yes</button>
+  
   <!-- Start -->
   <div class="container-fluid">
     <div class="row">
@@ -208,13 +219,13 @@
    
 
     <!--Image for info-->
-<div class="row">
+    <div class="row">
   <div class="col-sm-12">
     <div class="d-flex align-items-center justify-content-center">
   <img src="assets/Copy of Color Version 01 (1).jpg"  class="img-fluid w-80 rounded" alt="Responsive image">
 </div>
 </div>
-</div>
+    </div>
 
     <!-- Contact Us -->
     <div class="col">
@@ -384,6 +395,7 @@
   gtag('js', new Date());
 
   gtag('config', 'G-9CJJVZQMS5');
+  
 </script>
 
 </body>
